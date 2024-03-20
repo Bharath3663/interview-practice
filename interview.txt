@@ -13,6 +13,7 @@
   space where your project files and revision history are stored. It contains all the files
   and directories that make up your project, along with metadata about those files, such as
   commit history, branches, tags, and more
+<<<<<<< HEAD
 =======
   Git is a decentralized version control system engineered for rapid and effective management
   of projects ranging from modest to vast in scale. It supports collaborative efforts among 
@@ -24,6 +25,8 @@
   platform like GitHub. It encompasses all the files associated with the project, along with 
   a record of the modifications made to these files over time.
 >>>>>>> 8a1695d (1st commit)
+=======
+>>>>>>> 71a2636 (2nd remote commit)
 
 3. What is the difference between Git and GitHub?
   Git is a tool for version control that enables you to monitor and record the evolution of 
@@ -516,6 +519,8 @@ Use `git show --name-only <commit-hash>` to list the files that changed in a com
  Manage multiple configurations by using the `git config` command with the `--global`,
  `--system`, or `--local` flags to set configuration options at different levels or by using
  includeIf in the Git configuration to include specific configurations based on the repository
+
+         "AND THIS IS BHARATH SAINING OF"
 <<<<<<< HEAD
  path.
 =======
