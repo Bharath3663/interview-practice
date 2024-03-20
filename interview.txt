@@ -1,9 +1,11 @@
                      "Basic Git Interview Questions and Answers"
 
 1. What is Git?
-  Git is a decentralized version control system engineered for rapid and effective management
-  of projects ranging from modest to vast in scale. It supports collaborative efforts among 
-  developers by monitoring file modifications and enhancing teamwork.
+  Git is a distributed version control system that is widely used in software development for
+  tracking changes in source code during the development process.it has since become one of
+  the most popular version control systems for projects of all sizes and types.Git provides
+  developers with a powerful set of tools for managing and collaborating on software projects,
+  enabling them to work more efficiently and effectively   
 
 2. What is a repository in Git?
   A Git repository is a location where your project resides, acting as a storage area. This 
