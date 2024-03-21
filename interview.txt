@@ -1,6 +1,7 @@
                      "Basic Git Interview Questions and Answers"
 
 1. What is Git?
+<<<<<<< HEAD
   Git is a distributed version control system that is widely used in software development for
   tracking changes in source code during the development process.it has since become one of
   the most popular version control systems for projects of all sizes and types.Git provides
@@ -12,6 +13,17 @@
   space where your project files and revision history are stored. It contains all the files
   and directories that make up your project, along with metadata about those files, such as
   commit history, branches, tags, and more
+=======
+  Git is a decentralized version control system engineered for rapid and effective management
+  of projects ranging from modest to vast in scale. It supports collaborative efforts among 
+  developers by monitoring file modifications and enhancing teamwork.
+
+2. What is a repository in Git?
+  A Git repository is a location where your project resides, acting as a storage area. This 
+  repository can exist locally within a directory on your computer or on a cloud-based 
+  platform like GitHub. It encompasses all the files associated with the project, along with 
+  a record of the modifications made to these files over time.
+>>>>>>> 8a1695d (1st commit)
 
 3. What is the difference between Git and GitHub?
   Git is a tool for version control that enables you to monitor and record the evolution of 
@@ -504,4 +516,8 @@ Use `git show --name-only <commit-hash>` to list the files that changed in a com
  Manage multiple configurations by using the `git config` command with the `--global`,
  `--system`, or `--local` flags to set configuration options at different levels or by using
  includeIf in the Git configuration to include specific configurations based on the repository
+<<<<<<< HEAD
  path.
+=======
+ path.
+>>>>>>> 8a1695d (1st commit)
