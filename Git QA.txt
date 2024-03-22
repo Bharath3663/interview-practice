@@ -1,8 +1,8 @@
                      "Basic Git Interview Questions and Answers"
 
 1. What is Git?
- Git is a DevOps tool used for source code management. It is a free and open-source version control system used to handle small to very large projects 
- efficiently. Git is used to tracking changes in the source code, enabling multiple developers to work together on non-linear development   
+Git is a DevOps tool for managing source code. It's free and open-source, suitable for projects of any size. Git tracks changes in source code, allowing multiple 
+developers to collaborate on development.  
 
 2. What is a repository in Git?
  A Git repository is where version control system (VCS) stores metadata and tracks changes for a group of files and folders. It holds all project-related data, 
@@ -25,8 +25,8 @@
  within specific sections of the repository, keeping each process separate.
 
 7. What is a merge in Git?
- Merging is a Git operation that integrates changes from one branch into another. It can be a fast-forward merge, where the target branch is updated to the latest 
- commit of the source branch, or a three-way merge, where divergent branch histories are combined into a new commit
+ The merge command in Git is used to combine changes from two or more branches into a single branch. This allows developers to work on different branches   
+ simultaneously and then merge their changes into a single branch. 
 
 8. What is a conflict in Git?
  In Git, a conflict happens when two branches change the same line in a file or when one branch deletes a file while the other modifies it. Git can't 
