@@ -33,16 +33,16 @@ developers to collaborate on development.
  automatically fix these conflicts; the developer needs to resolve them manually.
 
 9. What is a pull request?
- A pull request is a way to contribute changes to a project, commonly used on GitHub. A developer makes changes in their own branch, uploads them to a repository, 
- and then requests a pull. This prompts project maintainers to review the changes, discuss adjustments, and merge the pull request into the main branch.
+ A pull request is a request to merge changes from one branch into another. Collaborators can review and discuss the changes before integrating them into the main 
+ codebase.
 
 10. What is `git fetch` vs. `git pull`?
  `git fetch` downloads updates from a remote repository to your local repository without integrating them. On the other hand, `git pull` not only fetches the 
- updates but also incorporates them into your active branch.
+ updates but also merges them into your active branch.
 
 11. How do you revert a commit that has already been pushed and made public?
- To undo changes from a previous commit safely, you can use 'git revert <commit_hash>'. This creates a new commit that undoes the changes. Be cautious with 'git 
- reset' as it reverts to an earlier state, potentially altering commit history, especially for public commits.
+ To safely undo changes from a previous commit, you can use 'git revert <commit_hash>'. This creates a new commit that undoes the changes. Be careful with 'git 
+ reset' because it reverts to an earlier state, which could change commit history, especially for public commits.
 
 12. What is a `.gitignore` file?
  A'.gitignore' file tells Git which files or directories to ignore in a project. It typically includes files generated during the build process, local setup 
@@ -68,15 +68,15 @@ developers to collaborate on development.
  cleaner.
 
 19. How do you resolve a merge conflict?
- To resolve a merge conflict, edit the files to fix the conflicting changes. Then, use `git add` to stage the resolved files and `git commit` to commit the merge.
+ To resolve a merge conflict, manually edit the conflicting files and decide which changes to keep. After resolving all conflicts, commit the merged changes and 
+ continue working on your branch.
 
 20. What is `git rebase`?
- git rebase moves changes from one branch to another, helping to create a cleaner project history by integrating updates from a feature branch onto the main 
- branch.
+ Git rebase reorganizes commits onto a new base, useful for cleaning up history or integrating changes between branches.
 
 21. What is the difference between `git merge` and `git rebase`?
- The main difference lies in how branch history is shown. With 'git merge', the history of a feature branch is kept intact by making a new merge commit. 'git 
- rebase' reorganizes the feature branch's history to seem like it was developed from the latest main branch, resulting in a straight-line history.
+ Git merge and git rebase are both powerful tools that can be used to integrate changes from one branch into another. The best option for you will depend on your 
+ specific needs and preferences.
 
 22. How do you change the last commit?
  Use `git commit --amend` to modify the most recent commit. This can change the commit's message or include new changes.
